@@ -23,4 +23,3 @@ urlpatterns = [
     path('about/', TemplateView.as_view(template_name='about.html')),
     path('privacy/',TemplateView.as_view(template_name='privacy.html')),
 ]
-
